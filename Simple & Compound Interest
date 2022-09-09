@@ -1,0 +1,17 @@
+import math
+print("Menu -> Simple Interest,Compound Interest")
+ch=input()
+if ch=="Simple Interest":
+  P=int(input("Enter the principle amount:"))
+  T=int(input("Enter the time:"))
+  R=int(input("Enter the rate of interest:"))
+  SI=(P*T*R/100)
+  print("The Simple Interest is {}".format(SI))
+elif ch=="Compound Interest":
+  P=int(input("Enter the principle amount:"))
+  R=int(input("Enter the rate of interest:"))
+  T=int(input("Enter the time:"))
+  CI=(P*(math.pow(1+(R/100),T)))-P
+  print('The Compound Interest is {}'.format(CI))
+else:
+  print("Please choose among menu")
