@@ -1,0 +1,6 @@
+from random import randint
+repeat_rolling = True
+while repeat_rolling:
+    print("You rolled the following number using the Dice is",randint(1,6))
+    print("Do you wish to roll the dice again(Y/N)?")
+    repeat_rolling = ("Y" or "YES") in input().upper()
