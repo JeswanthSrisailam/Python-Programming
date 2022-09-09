@@ -1,4 +1,5 @@
-answer = int(input("What should the answer be? "))
+from random import randint
+answer = randint(1,1000)
 guesses = int(input("How many guesses? "))
 
 guess_count = 0
