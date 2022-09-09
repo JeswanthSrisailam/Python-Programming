@@ -1,0 +1,7 @@
+N=int(input("Enter the value:"))
+if N<=0:
+  print("NOT VALID")
+else:
+  num=((N)*(N+1))/2
+  COFN=num*num
+  print("The sum of cube first n natural numbers are {}".format(COFN))
