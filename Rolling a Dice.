@@ -4,3 +4,15 @@ while repeat_rolling:
     print("You rolled the following number using the Dice is",randint(1,6))
     print("Do you wish to roll the dice again(Y/N)?")
     repeat_rolling = ("Y" or "YES") in input().upper()
+    
+
+------------------------------------------------------------------------------OR------------------------------------------------------------------------------------------
+
+from random import randint
+random=randint(1,6)
+print("Random number generated after rolling the dice is {}".format(random)) 
+Ask=input("Do you want roll the dice again:")
+while Ask=='Yes':
+        random=randint(1, 6) 
+        print("Random number genrated after rolling dice is {}".format(random))
+        Ask=input("Do you want roll the dice again:")
