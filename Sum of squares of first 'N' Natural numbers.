@@ -1,0 +1,6 @@
+N=int(input("Enter the value:"))
+if N<=0:
+  print("NOT VALID")
+else:
+  SOFN=(N*(N+1)*(2*N+1))/6
+  print("The sum of squares of first n natural numbers is {}".format(SOFN))
