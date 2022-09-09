@@ -1,1 +1,18 @@
+print("Menu -> Area of Square,Area of Rectangle,Area of circle")
+ch=input()
 
+if (ch=="Area of Square"):
+  side=int(input("Enter the side for area:"))
+  AOS=side*side
+  print("Area of square is {}".format(AOS))
+elif ch=="Area of Rectangle":
+  L=int(input("Enter the length:"))
+  B=int(input("Enter the breadth:"))
+  AOR=(L*R)
+  print("Area of Rectangle is {}".format(AOR))
+elif ch=="Area of Square":
+  R=int(input("Enter the value of radius:"))
+  AOC=(3.14*R*R)
+  print("Area of Square is {}".format(AOC))
+else:
+  print("Please choose among menu")
