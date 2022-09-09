@@ -1,0 +1,7 @@
+var=input("Enter the paragraph:")
+val=input("Enter the letter:")
+if val in var:
+  a=var.count(val)
+  print("Letter {} exists in paragraph and count is {}".format(val,a))
+else:
+  print("Letter {} does not exist in paragraph".format(val))
