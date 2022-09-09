@@ -1,0 +1,26 @@
+import math
+print("Menu -> Addition,Substraction,Multiplication,Divison,Square,power")
+ch=input()
+num1=int(input('enter the number 1:'))
+num2=int(input('enter the number 2:'))
+if ch=="Addition":
+  sum=(num1+num2)
+  print("Addition of 2 numbers is {}".format(sum))
+elif ch=="Substraction":
+  sub=num1-num2
+  print("Substraction of 2 numbers is {}".format(sub))
+elif ch=="Multiplication":
+  mul=num1*num2
+  print("Multiplication of 2 numbers is {}".format(mul))
+elif ch=="Divison":
+  div=num1/num2
+  print("Divison of 2 numbers is {}".format(div))
+elif ch=="Square":
+  sq=num1**num2
+  print("Square of 2 numbers is {}".format(sq))
+elif ch=="power":
+  po=math.pow(num1,num2)
+  print("Power of 2 numbers is {}".format(po))
+else:
+    print("Please choose among menu")
+  
