@@ -1,0 +1,18 @@
+num=int(input("Enter the number:"))
+fact=1
+if num<0:
+  print("NOT VALID")
+elif num==0:
+  print("The factorial of 0 is 1")
+else:
+  for x in range(1,num+1):
+    fact=fact*x
+  print("The factorial of {} is {}".format(num,fact))
+  
+  ----------------------------------------------------------------------OR------------------------------------------------------------------------------------------------
+  
+  import math
+  num=int(input("Enter the number:"))
+  fact=math.factorial(num)
+  print("The factorial of {} is {}".format(num,fact))
+  
