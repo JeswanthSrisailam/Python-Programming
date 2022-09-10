@@ -1,0 +1,16 @@
+n=int(input("Enter the input:"))
+n1=0
+n2=1
+count=0
+if n<0:
+  print("Not possible")
+elif n==1:
+  print(n1)
+else:
+  while count < n: //To ensure n is greater than count
+    print(n1)
+    num=n1+n2
+    n1=n2
+    n2=num 
+    count += 1 //To increase count by 1
+    
