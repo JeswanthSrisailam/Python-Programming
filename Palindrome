@@ -1,0 +1,14 @@
+Char=input("Enter the input:")
+if char==char[::-1]:
+  print("It is palindrome")
+else:
+  print("Not a Palindrome")
+  
+  ----------------------------------------------------------------------------OR------------------------------------------------------------------------------------------
+
+Char=input("Enter the input:")
+rev=reversed(char)
+if list(char)==list(rev):
+  print("It is palindrome")
+else:
+  print("Not a Palindrome")
