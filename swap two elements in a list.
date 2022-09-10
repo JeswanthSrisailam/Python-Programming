@@ -1,0 +1,10 @@
+list=[]
+s=int(input("Enter the size of list:"))
+for i in range(0,s):
+    n=int(input())
+    list.append(n)
+print(list)
+sw1=int(input("Enter the position1 for swap"))
+sw2=int(input("Enter the position2 for swap"))
+list[sw1],list[sw2] = list[sw2],list[sw1]
+print("Updated list is {}".format(list))
