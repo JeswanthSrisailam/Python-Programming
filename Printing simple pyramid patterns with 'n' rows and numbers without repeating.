@@ -1,0 +1,22 @@
+n=int(input("Enter the number of rows:"))
+num=int(input("Enter the minimum number for pyramid:"))
+for i in range(0,n):
+    for j in range(0,i+1):
+        print(num ,end=" ")
+        num += 1
+    print('\t')
+    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Output:
+if
+Enter the number of rows:5
+Enter the minimum number for pyramid:10
+//then pyramid looks like below
+
+   
+10 	
+11 12 	
+13 14 15 	
+16 17 18 19 	
+20 21 22 23 24 
