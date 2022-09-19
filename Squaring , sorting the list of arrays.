@@ -1,0 +1,12 @@
+def sortSquare(nums, n):
+	for i in range(n):
+		nums[i]= nums[i] * nums[i]
+	nums.sort()
+#Driver code
+nums = [-7, -5, -2, 0, 1]
+n = len(nums)
+sortSquare(nums,n)
+
+
+for i in range(n):
+	print(nums[i],end = " ")
